@@ -39,7 +39,7 @@ body{
 .banner{
     display: grid;
     place-items: center;
-    background-image: url('../images/banner2.webp');
+    background-image: url('../images/banner1.webp');
     background-size: cover;
     background-position: center top;
     text-align: center;
