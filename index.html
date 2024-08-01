@@ -1,44 +1,628 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
-    <!-- Primary Meta Tags -->
-    <meta name="title" content="Coming Soon">
-    <meta name="description" content="In the meantime, Stay tuned. We are almost ready to launch.">
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="   /">
-    <meta property="og:title" content="Coming Soon">
-    <meta property="og:description" content="In the meantime, Stay tuned. We are almost ready to launch.">
-    <meta property="og:image" content="   /assets/images/og/og-image.jpg">
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="   /">
-    <meta property="twitter:title" content="Coming Soon">
-    <meta property="twitter:description" content="In the meantime, Stay tuned. We are almost ready to launch.">
-    <meta property="twitter:image" content="   /assets/images/og/og-image.jpg">
-    <!-- Favicon Link -->
-	<link rel="icon" type="image/png" sizes="512x512" href="./assets/images/favicon/android-chrome-512x512.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="./assets/images/favicon/android-chrome-192x192.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
-	<link rel="icon" type="image/x-icon" href="./assets/images/favicon/favicon.ico">
-    <!-- Font Link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML</title>
+
+  <!-- icofont-css-link -->
+  <link rel="stylesheet" href="css/icofont.min.css">
+  <!-- Owl-Carosal-Style-link -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <!-- Bootstrap-Style-link -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Aos-Style-link -->
+  <link rel="stylesheet" href="css/aos.css">
+  <!-- Coustome-Style-link -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Responsive-Style-link -->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
 </head>
+
 <body>
-    <section class="banner">
-        <div class="container">
-            <h1 class="banner__title">dashcart</h1>
-            <p class="banner__text">Empowering Local Vendors Delivering Change Together</p>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
+
+  <!-- Header Start -->
+  <header>
+    <!-- container start -->
+    <div class="container">
+      <!-- navigation bar -->
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">
+          <img src="https://i.ibb.co/jzMxLVn/dashcart.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <!-- <i class="icofont-navigation-menu ico_menu"></i> -->
+            <span class="toggle-wrap">
+              <span class="toggle-bar"></span>
+            </span>
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            
+            <!-- secondery menu start -->
+           
+            <!-- secondery menu end -->
+
+            
+            <li class="nav-item">
+              <div class="btn_block">
+                <a class="nav-link dark_btn" href="/">Download</a>
+                <div class="btn_bottom"></div>
+              </div>
+            </li>
+          </ul>
         </div>
+      </nav>
+      <!-- navigation end -->
+    </div>
+    <!-- container end -->
+  </header>
+
+  <!-- Banner-Section-Start -->
+  <section class="banner_section">
+    <!-- container start -->
+    <div class="container">
+      <!-- row start -->
+      <div class="row">
+        <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1500">
+          <!-- banner text -->
+          <div class="banner_text">
+            <!-- typed text -->
+            <div class="type-wrap">
+              <!-- add static words/sentences here (i.e. text that you don't want to be removed)-->
+              <span id="typed" style="white-space:pre;" class="typed">
+              </span>
+            </div>
+            <!-- h1 -->
+            <h1>Revolutionizing Local <span>Deliveries</span></h1>
+            <!-- p -->
+            <p>
+              Empowering Local Vendors, Delivering Change Together
+            </p>
+          </div>
+
+          <!-- users -->
+          <div class="used_app">
+            <!-- <ul>
+              <li><img src="images/banavt1.png" alt="image"></li>
+              <li><img src="images/banavt2.png" alt="image"></li>
+              <li><img src="images/banavt3.png" alt="image"></li>
+              <li>
+                <a href="#" class="popup-youtube play-button"
+                  data-url="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1" data-toggle="modal" data-target="#myModal" title="XJj2PbenIsU"><img src="images/play.svg" alt="img"></a>
+              </li>
+            </ul> -->
+            <!-- <h3>12M + Active users</h3> -->
+            <p>Coming Soon...</p>
+          </div>
+
+          <!-- app buttons -->
+          <!-- <ul class="app_btn">
+            <!-- <li>
+              <a href="#">
+                <img class="blue_img" src="images/googleplay.png" alt="image">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="blue_img" src="images/appstorebtn.png" alt="image">
+              </a>
+            </li> -->
+          </ul> 
+        </div>
+
+        <!-- Hero Image -->
+        <div class="col-lg-6 col-md-12" >
+          <div class="banner_slider">
+            
+            <div class="left_icon">
+              <img src="images/smallStar.png" alt="image">
+            </div>
+            <div class="right_icon">
+              <img src="images/bigstar.png" alt="image">
+            </div>
+
+            <div class="hero_img">
+              <img src="https://i.postimg.cc/R0vfh2Y6/Untitled-design-12.png" alt="image">
+
+            </div>
+            
+          </div>
+        </div>
+        <!-- Hero Image end -->
+
+      </div>
+      <!-- row end -->
+
+    </div>
+    <!-- container end -->
+  </section>
+  <!-- Banner-Section-end -->
+
+  <!-- Key Feature Section Start -->
+  <section class="key_feature_section row_am pt-0">
+    <div class="key_innner">
+      <div class="container">
+        <div class="dotes_blue"><img src="images/blue_dotes.png" alt="image"></div>
+        <div class="section_title">
+          <span class="title_badge">Key Feature</span>
+          <h2>Powerful features</h2>
+        </div>
+        <div id="feature_slider" class="owl-carousel owl-theme" data-aos="fade-up" data-aos-duration="1500">
+          <div class="item">
+            <div class="feature_box">
+              <h3>Order Pooling</h3>
+              <p>Combines multiple small orders into a single delivery trip, reducing delivery costs.</p>
+              <div class="img">
+                <img src="https://i.ibb.co/YNp4xTW/1.png" alt="image">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="feature_box">
+              <h3>Free Delivery</h3>
+              <p>Offers free delivery by pooling orders to meet minimum order values.</p>
+              <div class="img">
+                <img src="https://i.ibb.co/ggrpnHw/2.png" alt="image">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="feature_box">
+              <h3>Support Local Kirana Stores</h3>
+              <p>Increases sales by helping local stores meet minimum order requirements frequently.</p>
+              <div class="img">
+                <img src="https://i.ibb.co/prb4sZc/3.png" alt="image">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="feature_box">
+              <h3>Optimized Delivery Routes</h3>
+              <p>Uses sophisticated software to plan efficient delivery routes, minimizing travel time and fuel consumption.</p>
+              <div class="img">
+                <img src="https://i.ibb.co/hWrM2xk/4.png" alt="image">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="feature_box">
+              <h3>User-Friendly Interface</h3>
+              <p>Simplifies the onboarding process for merchants, bridging the tech-savviness gap.</p>
+              <div class="img">
+                <img src="https://i.ibb.co/2WLNGzL/5.png" alt="image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <!-- Key Feature Section End -->
+
+  <!-- Page Wraper -->
+  <div class="page_wrapper">
+
+    <!-- About Us Start-->
+    <section class="about_section row_am">
+      <div class="container">
+        <div class="section_title" data-aos="fade-up" data-aos-duration="1500">
+          <span class="title_badge mb-1">Problems</span>
+          <h2><span >quickEcommerce: </span> Convenience with  <br>
+         <span style="color: red;font-size: 5rem;">HIDDEN COST</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <ul class="app_statstic" id="counter" data-aos="fade-in" data-aos-duration="1500">
+              <li data-aos="fade-up" data-aos-duration="1500">
+                <div class="text">
+                  <p><span class="counter-value" data-count="45">0</span><span>%</span></p>
+                  <p>Delivery Fees</p>
+                </div>
+              </li>
+              <li data-aos="fade-up" data-aos-duration="1500">
+                <div class="text">
+                  <p><span class="counter-value" data-count="30">0</span><span>%</span></p>
+                  <p>Unnecessary Items</p>
+                </div>
+              </li>
+              <li data-aos="fade-up" data-aos-duration="1500">
+                <div class="text">
+                  <p><span class="counter-value" data-count="25">0</span><span>%</span></p>
+                  <p>Sales Decrease</p>
+                </div>
+              </li>
+              <li data-aos="fade-up" data-aos-duration="1500">
+                <div class="text">
+                  <p><span class="counter-value" data-count="42">0</span><span>%</span></p>
+                  <p>Satisfaction</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="abtImg text-center" data-aos="fade-up" data-aos-duration="1500">
+              <img src="https://i.postimg.cc/0jdgZM8y/Untitled-design-15.png" alt="image">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <p data-aos="fade-up" data-aos-duration="1500">Consumers face high delivery fees and minimum order requirements, deterring small purchases and leading to inefficiencies. Local kirana stores struggle with a 25% sales decrease due to quick e-commerce competition. Our platform addresses these issues by offering free delivery through order pooling, enhancing satisfaction for both consumers and local stores.</p>
+            <!-- <div class="video_block" data-aos="fade-up" data-aos-duration="1500">
+              <img class="thumbnil" src="images/applicationvideothumb.png" alt="image">
+              <div class="playBtn">
+                <a href="#" class="popup-youtube play-button play_icon"
+                  data-url="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1" data-toggle="modal" data-target="#myModal" title="XJj2PbenIsU"><img src="images/play_white.svg" alt="img"></a>
+                <img class="spin_text" src="images/playvideotext.png" alt="image">
+              </div> -->
+            </div>
+            <div class="btn_block" data-aos="fade-up" data-aos-duration="1500">
+              <!-- <a href="#" class="btn puprple_btn ml-0">START FREE TRIAL</a> -->
+              <div class="btn_bottom"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+    <!-- About Us End -->
+
+    <!-- Text List flow Section Start -->
+    <div class="text_list_section row_am" data-aos="fade-in" data-aos-duration="1500">
+      <div class="container">
+        <span class="title_badge down_fix">Purpose Behind This</span>
+      </div>
+      <div class="slider_block">
+        <div class="owl-carousel owl-theme" id="text_list_flow">
+          <div class="item">
+            <div class="text_block">
+              <span>High Delivery Charges</span>
+              <span class="mark_star">•</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text_block">
+              <span>Unnecessary Item Purchases</span>
+              <span class="mark_star">•</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text_block">
+              <span>Surge Pricing</span>
+              <span class="mark_star">•</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text_block">
+              <span>Local Vendor Loss</span>
+              <span class="mark_star">•</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text_block">
+              <span>Sales Decrease</span>
+              <span class="mark_star">•</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text_block">
+              <span>Minimum Order Threshold</span>
+              <span class="mark_star">•</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text_block">
+              <span>Hidden Costs</span>
+              <span class="mark_star">•</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text_block">
+              <span>Delivery Inconveniences</span>
+              <span class="mark_star">•</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text_block">
+              <span>Complicated Ordering</span>
+              <span class="mark_star">•</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text_block">
+              <span>Inefficient Logistics</span>
+              <span class="mark_star">•</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- Text List flow Section End -->
+
+   
+
+    <!-- How It Work Section Start -->
+   
+    <!-- How It Work Section End -->
+  </div>
+  <!-- Wraper End -->
+
+  <!-- Positive Reviews Section Start -->
+  
+  <!-- Positive Reviews Section End -->
+
+  <!-- Page Wraper -->
+  <div class="page_wrapper">
+
+    <!-- Our Client -->
+    
+
+    <!-- Pricing-Section -->
+    
+    <!-- Pricing-Section end -->
+
+    <!-- Beautifull-interface-Section start -->
+    <section class="row_am interface_section">
+      <!-- container start -->
+      <div class="container-fluid">
+        <div class="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+          <span class="title_badge">App screens</span>
+          <h2>Userfriendly <span>interface</span> design</h2>
+        </div>
+
+        <!-- screen slider start -->
+        <div class="screen_slider" data-aos="fade-up" data-aos-duration="1500">
+          <div id="screen_slider" class="owl-carousel owl-theme">
+            <div class="item">
+              <div class=" ">
+                <img src="https://i.ibb.co/rppbLD6/1.png" alt="image">
+              </div>
+            </div>
+            <div class="item">
+              <div class=" ">
+                <img src="https://i.ibb.co/7gphdyB/2.png" alt="image">
+              </div>
+            </div>
+            <div class="item">
+              <div class=" ">
+                <img src="https://i.ibb.co/M5Tt0pB/3.png" alt="image">
+              </div>
+            </div>
+            <div class="item">
+              <div class=" ">
+                <img src="https://i.ibb.co/0DjFLGx/4.png" alt="image">
+              </div>
+            </div>
+            <div class="item">
+              <div class=" ">
+                <img src="https://i.ibb.co/9GqTvcH/5.png" alt="image">
+              </div>
+            </div>
+            <div class="item">
+              <div class=" ">
+                <img src="https://i.ibb.co/XjMj9hk/6.png" alt="image">
+              </div>
+            </div>
+            <div class="item">
+              <div class=" ">
+                <img src="https://i.ibb.co/hC6S7ZY/7.png" alt="image">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- screen slider end -->
+      </div>
+      <!-- container end -->
+    </section>
+    <!-- Beautifull-interface-Section end -->
+
+
+    <!-- Text List flow Section Start -->
+    <div class="text_list_section row_am downaload_section" data-aos="fade-in" data-aos-duration="1500">
+      <div class="container">
+        <div class="yellow_dotes">
+          <img src="images/yellow_dotes.png" alt="image">
+        </div>
+        <div class="center_screen">
+          <div class="img">
+            <img src="https://i.postimg.cc/R0vfh2Y6/Untitled-design-12.png" alt="image">
+          </div>
+          <!-- app buttons -->
+          <ul class="app_btn">
+            
+          </ul>
+        </div>
+      </div>
+      <div class="background_slider">
+        <div class="dowanload_slider">
+          <div class="downlist">
+            <div class="text_block">
+              <span>Download </span>
+              <span class="mark_star">•</span>
+            </div>
+            <div class="text_block">
+              <span>Download </span>
+              <span class="mark_star">•</span>
+            </div>
+            <div class="text_block">
+              <span>Download </span>
+              <span class="mark_star">•</span>
+            </div>
+            <div class="text_block">
+              <span>Download </span>
+              <span class="mark_star">•</span>
+            </div>
+            <div class="text_block">
+              <span>Download </span>
+              <span class="mark_star">•</span>
+            </div>
+          </div>
+        </div>
+        <div class="slider_block">
+          <div class="owl-carousel owl-theme" id="text_list_flow_download">
+            <div class="item">
+              <div class="text_block">
+                <span>Download </span>
+                <span class="mark_star">•</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="text_block">
+                <span>Download </span>
+                <span class="mark_star">•</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="text_block">
+                <span>Download </span>
+                <span class="mark_star">•</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="text_block">
+                <span>Download </span>
+                <span class="mark_star">•</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="text_block">
+                <span>Download </span>
+                <span class="mark_star">•</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="text_block">
+                <span>Download </span>
+                <span class="mark_star">•</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dowanload_slider">
+          <div class="downlist">
+            <div class="text_block">
+              <span>Download </span>
+              <span class="mark_star">•</span>
+            </div>
+            <div class="text_block">
+              <span>Download </span>
+              <span class="mark_star">•</span>
+            </div>
+            <div class="text_block">
+              <span>Download </span>
+              <span class="mark_star">•</span>
+            </div>
+            <div class="text_block">
+              <span>Download </span>
+              <span class="mark_star">•</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Text List flow Section End -->
+
+    <!-- Blog Section Start -->
+   
+    <!-- Blog Section End -->
+
+    <!-- Footer-Section start -->
+   
+    <!-- Footer-Section end -->
+
+    <!-- go top button -->
+    <div class="go_top" id="Gotop">
+      <span><i class="icofont-arrow-up"></i></span>
+    </div>
+
+    <!-- Video Model Start -->
+    <div class="modal fade youtube-video" id="myModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <button id="close-video" type="button" class="button btn btn-default text-right" data-dismiss="modal">
+            <i class="icofont-close-line-circled"></i>
+          </button>
+          <div class="modal-body">
+            <div id="video-container" class="video-container">
+              <iframe id="youtubevideo" width="640" height="360" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Video Model End -->
+  </div>
+  <!-- Page-wrapper-End -->
+
+  <!-- Jquery-js-Link -->
+  <script src="js/jquery.js"></script>
+  <!-- owl-js-Link -->
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- bootstrap-js-Link -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- aos-js-Link -->
+  <script src="js/aos.js"></script>
+  <!-- Typed Js Cdn -->
+  <script src='js/typed.min.js'></script>
+  <!-- main-js-Link -->
+  <script src="js/main.js"></script>
+
+  <script>
+    $("#typed").typed({
+      strings: ["Free Deliveries", "No Minimum Order", "Building Community"],
+      typeSpeed: 100,
+      startDelay: 0,
+      backSpeed: 60,
+      backDelay: 2000,
+      loop: true,
+      cursorChar: "|",
+      contentType: 'html'
+    });
+
+    // Fixed Discount Dish JS
+    $(document).ready(function () {
+      let cardBlock = document.querySelectorAll('.task_block');
+      let topStyle = 120;
+
+      cardBlock.forEach((card) => {
+        card.style.top = `${topStyle}px`;
+        topStyle += 30;
+      })
+
+    }
+    );
+
+    // Scroll Down Window 
+    $(document).ready(function () {
+      // Attach a click event handler to the button
+      $('#scrollButton').click(function () {
+        // Scroll down smoothly 200 pixels from the current position
+        $('html, body').animate({ scrollTop: $(window).scrollTop() + 600 }, 800); // Adjust the speed (800ms) as needed
+      });
+    });
+
+  </script>
+
 </body>
+
 </html>
